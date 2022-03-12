@@ -5,13 +5,13 @@ from acesso_cep import BuscaEndereco
 
 #-------------------------------------------------------
 #exemlo_cnpj = "35379838000112"  
-#exemlo_cpf = "04964046605"
+#exemlo_cpf = "55555555555"
 #documento = Documento.criar_documento(exemlo_cpf)
 #print(documento)
 #-------------------------------------------------------
 
 #-------------------------------------------------------
-#telefone = "55329995930000"
+#telefone = "5599999999999"
 #telefone_objeto = TelefonesBr(telefone)
 #print(telefone_objeto)
 #-------------------------------------------------------
@@ -29,7 +29,7 @@ from acesso_cep import BuscaEndereco
 #print(hoje.tempo_cadastro())
 #-------------------------------------------------------
 
-cep = 36035250
+cep = 36035000
 objeto_cep = BuscaEndereco(cep)
 bairro, localidade, uf = objeto_cep.acessa_via_cep()
 print(bairro, localidade, uf)
